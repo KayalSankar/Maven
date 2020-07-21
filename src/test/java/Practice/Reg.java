@@ -14,6 +14,7 @@ public class Reg {
 	@Test
 	public void RegisterUser() {
 		 WebDriverManager.chromedriver().setup();
+		 //Added this comment to test Github storage
 		  WebDriver driver3 = new ChromeDriver();
 	       driver3.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	       driver3.get("http://magento.com");
